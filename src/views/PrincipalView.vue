@@ -11,9 +11,13 @@
         <Nav/>
 
         <!-- Main Component -->
-        <Main/>
+        <!-- <Main/> -->
         
-        <!-- <slot></slot> -->
+        <div class="col-start-3 col-end-11 justify-center border-4 border-double border-black rounded-lg w-full"> 
+
+          <slot></slot>
+
+        </div>
 
       </div>
 
@@ -31,7 +35,7 @@ import Header from '@/components/Header.vue';
 
 import Nav from '@/components/Nav.vue'
 
-import Main from '@/components/Main.vue'
+// import Main from '@/components/Main.vue'
 
 import Footer from '@/components/Footer.vue'
 
